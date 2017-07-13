@@ -1,14 +1,41 @@
-tr {
-	font-family:"Times New Roman", Times, serif;
+body{
+background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+color: white;
 }
-td{
-	text-align: center;
-	font-family:"Times New Roman", Times, serif;
-	
-}
-th{
-	text-align: left;
-}
+
+
 table {
 	margin:auto;
+	margin-top:100px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	border: solid white;
+	-webkit-transform: translate(100px) rotate(20deg);
+	-webkit-transform-origin: 0 -250px;
+	transform: translate(100px) rotate(20deg);
+	transform-origin: 0 -250px;
+}
+table, th, td {
+    border: .25px solid white;
+	width:200px;
+	height:100px;
+	
+}
+h1 {
+	color: white;
+	margin-top:70px;
+	text-align:center;
+	font-size: 100px;
+	text-shadow: 10px 10px #2A2A2A;
+}
+th:hover {
+	background: white;
+	color:black;
 }
